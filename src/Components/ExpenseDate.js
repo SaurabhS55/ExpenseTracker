@@ -7,7 +7,7 @@ export default function ExpenseDate(props){
         <div className="date-bg">
             <div>{day}</div>
             <div>{year}</div>
-            <div>{month}</div>
+            <div>{month+1}</div>
         </div>
     )
 }
